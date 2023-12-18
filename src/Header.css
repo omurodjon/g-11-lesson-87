@@ -1,0 +1,66 @@
+body {
+	height: 1000px;
+}
+.bd1 {
+	width: auto;
+	height: 647px;
+	background: #f5f7ff;
+	filter: drop-shadow(0px 4px 23px rgba(49, 49, 49, 0.05));
+}
+.pic1 {
+	position: absolute;
+	top: 23px;
+	left: 165px;
+}
+.pic1:hover {
+	stroke: dodgerblue;
+	fill: dodgerblue;
+}
+.navbar {
+	display: flex;
+	width: 443px;
+	height: 19px;
+	flex-direction: row;
+	justify-content: space-between;
+	top: 36px;
+	left: 325px;
+	position: absolute;
+	gap: 2rem;
+	color: #272323;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.28px;
+	font-family: 'Open Sans', sans-serif;
+}
+.pic2 {
+	position: absolute;
+	top: 121px;
+	left: 706px;
+}
+.find {
+	position: absolute;
+	top: 193px;
+	left: 165px;
+	width: 504px;
+	height: 164px;
+	color: #353434;
+	font-family: 'Prompt', sans-serif;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 55px; /* 122.222% */
+	letter-spacing: 3.15px;
+}
+.lor1 {
+	position: absolute;
+	top: 375px;
+	left: 165px;
+	color: #a8a8a8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.28px;
+ width: 543px;
+ height: 72px;
+}
