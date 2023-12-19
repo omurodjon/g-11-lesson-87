@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import pic2 from './images/Group 201.png';
+import gr_201 from './images/Group 201.png';
+import gr_6 from './images/Group 6.png';
 
 function Header() {
 	return (
@@ -42,15 +43,27 @@ function Header() {
 				<h4>Blog</h4>
 				<h4>Become a member</h4>
 				<h4>About us</h4>
+				<p className="h-[35px] w-[200px] ms-9	bg-[#FFFFFF] text-[#A5A5A5] text-[14px] flex items-center ps-3 rounded-xl ">
+					Search here...
+				</p>
+				<span className="text-[#4238AF] text-[16px]">Log in</span>
+				<span>/</span>
+				<span className="text-[16px]">Sing Up</span>
 			</div>
-			<img className="pic2" src={pic2} alt="" />
+			<img className="pic2" src={gr_201} alt="" />
 			<h1 className="find">Find out talented freelancer with better review faster.</h1>
 			<h1 className="lor1">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 				laboris nisi ut aliquip.
 			</h1>
-			<button className="btn1">Discover Now</button>
+			<div className="demo_watch flex">
+				<button className="btn1">Discover Now</button>
+				<div className="watch flex justify-center items-center gap-3">
+					<img src={gr_6} alt="" />
+					<p>Demo Watch</p>
+				</div>
+			</div>
 		</div>
 	);
 }

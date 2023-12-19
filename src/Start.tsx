@@ -846,7 +846,6 @@ function Start() {
 					/>
 				</svg>
 			</div>
-      <h4 className='how'>How it works</h4>
 		</div>
 	);
 }

@@ -4,15 +4,23 @@ import './index.css';
 import Start from './Start';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
+import Working from './Working';
+import Choose from './Choose';
+import Scores from './Scores';
+import Pricing from './Pricing';
+import Footer from './Footer';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-  <>
-    <Header />
-    <Start />
-  </>
+	<>
+		<Header />
+		<Start />
+		<Working />
+		<Choose />
+		<Scores />
+		<Pricing />
+		<Footer />
+	</>
 );
 
 // If you want to start measuring performance in your app, pass a function
