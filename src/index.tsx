@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Start from './Start';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 
@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <App />
     <Header />
+    <Start />
   </>
 );
 

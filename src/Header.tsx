@@ -45,12 +45,12 @@ function Header() {
 			</div>
 			<img className="pic2" src={pic2} alt="" />
 			<h1 className="find">Find out talented freelancer with better review faster.</h1>
-			<h1 className='lor1'>
+			<h1 className="lor1">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 				laboris nisi ut aliquip.
 			</h1>
-   <button className='btn1'></button>
+			<button className="btn1">Discover Now</button>
 		</div>
 	);
 }

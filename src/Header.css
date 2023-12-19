@@ -13,8 +13,8 @@ body {
 	left: 165px;
 }
 .pic1:hover {
-	stroke: dodgerblue;
-	fill: dodgerblue;
+	stroke: #544cac;
+	fill: #544cac;
 }
 .navbar {
 	display: flex;
@@ -57,10 +57,27 @@ body {
 	left: 165px;
 	color: #a8a8a8;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;;
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 0.28px;
- width: 543px;
- height: 72px;
+	width: 543px;
+	height: 72px;
+}
+.btn1 {
+	position: absolute;
+	top: 489px;
+	left: 186px;
+	width: 150px;
+	height: 44px;
+	border: none;
+	border-radius: 6px;
+	background: #544cac;
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.32px;
 }
